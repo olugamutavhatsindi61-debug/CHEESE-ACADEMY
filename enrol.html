@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Enrol | Big Cheese Academy</title>
+<meta name="description" content="Enrol or enquire with Big Cheese Academy on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🧀%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="bar"></div>
+<header><div class="wrap nav">
+<a class="logo" href="index.html"><img src="images/logo.png" alt="Big Cheese Academy logo"><span>Big Cheese Academy</span></a>
+<nav class="links" id="lk"><a href="index.html">Home</a><a href="subjects.html">Subjects</a><a href="classes.html">Classes</a><a href="pricing.html">Pricing</a><a href="faq.html">FAQ</a><a href="tutor.html">Tutor</a><a href="enrol.html" class="on" aria-current="page">Enrol</a><a class="tl-m" href="enrol.html#apply">Enrol to be a Tutor</a></nav>
+<button id="tg" aria-label="Toggle dark mode">◐</button>
+<a class="btn or top" href="enrol.html">Enrol Now</a>
+<a class="btn ghost top" href="enrol.html#apply">Enrol to be a Tutor</a>
+<button id="mb" aria-label="Menu">☰</button>
+</div></header>
+<main>
+<section class="how" id="enrol-sec"><div class="wrap">
+<div class="eye rv">Send a message</div><h2 class="rv" style="margin-bottom:30px">Enrol or enquire</h2>
+<div class="ct rv">
+<form id="f">
+<div class="r"><label>Your name<input id="n" required placeholder="Full name"></label><label>Phone<input id="p" type="tel" placeholder="076 123 4567"></label></div>
+<div class="r"><label>Grade<select id="g"><option>Grade 10</option><option>Grade 11</option><option>Grade 12</option></select></label>
+<label>Package<select id="k"><option>One-on-one consultation</option><option>Group sessions</option><option>Bootcamp sessions</option></select></label></div>
+<label>Subject(s)<input id="s" placeholder="e.g. Mathematics, Accounting"></label>
+<label>Message<textarea id="m" rows="3" placeholder="Anything we should know?"></textarea></label>
+<button class="btn or" type="submit">Send On WhatsApp</button>
+<small style="color:var(--mute)">This opens WhatsApp with your details ready to send.</small>
+</form>
+<div class="side"><h3>Ready to go from understanding to outstanding?</h3>
+<span>Reach out directly. Enrolment, packages or general questions all welcome.</span>
+<a class="ph2" href="https://wa.me/27767642609">076 764 2609</a>
+<a href="mailto:tebugoblessing26@gmail.com" style="font-size:14px;opacity:.9">tebugoblessing26@gmail.com</a></div>
+</div></div>
+<p class="rv" style="margin-top:22px;color:var(--mute)">Want to teach with us? <a href="#apply" style="color:var(--or);font-weight:600">Apply to be a tutor ↓</a></p></div></section>
+<section id="apply"><div class="wrap">
+<div class="eye rv">Join the team</div><h2 class="rv">Apply to be a tutor</h2>
+<p class="sub rv">Passionate about helping learners go from understanding to outstanding? Tell us about yourself and we’ll get back to you.</p>
+<div class="ct rv" style="grid-template-columns:1fr">
+<form id="a">
+<input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+<div class="r"><label>Full name<input name="Full name" required placeholder="Full name"></label><label>Email<input name="Email" type="email" required placeholder="you@email.com"></label></div>
+<div class="r"><label>Phone / WhatsApp<input name="Phone" type="tel" required placeholder="076 123 4567"></label><label>Highest qualification<input name="Qualification" required placeholder="e.g. BCom Finance (Final Year)"></label></div>
+<div class="r"><label>University / institution<input name="Institution" required placeholder="e.g. University of the Free State"></label><label>Grades you can teach<select name="Grades"><option>Grade 10</option><option>Grade 11</option><option>Grade 12</option><option>Grades 10–12</option></select></label></div>
+<label>Subjects / modules you can tutor<input name="Subjects" required placeholder="e.g. Mathematics, Accounting"></label>
+<label>Tutoring experience<textarea name="Experience" rows="3" placeholder="Tell us about any tutoring or teaching experience"></textarea></label>
+<label>Availability<input name="Availability" placeholder="e.g. Weekdays 14:00–18:00"></label>
+<label>Why do you want to tutor with us? (write it here, or upload a letter below)<textarea name="Motivation" rows="3"></textarea></label>
+<div class="docs"><h3>Documents</h3><p>PDF, Word or a clear photo (JPG or PNG). Up to 5 MB each.</p>
+<div class="r"><label>Current proof of registration / academic transcript<input type="file" data-doc="Transcript" data-key="transcript_path" required accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label>
+<label>Matric results<input type="file" data-doc="Matric" data-key="matric_path" required accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label></div>
+<div class="r"><label>Why you want to tutor with us (motivation letter, optional)<input type="file" data-doc="Motivation" data-key="motivation_path" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label>
+<label>CV (optional)<input type="file" data-doc="CV" data-key="cv_path" accept=".pdf,.jpg,.jpeg,.png,.doc,.docx"></label></div></div>
+<label class="ck"><input type="checkbox" required> I confirm the information above is true.</label>
+<button class="btn or" id="ab" type="submit">Submit Application</button>
+<small id="as" role="status" style="color:var(--mute)">Your application is sent securely to the Big Cheese Academy team.</small>
+</form></div></div></section>
+</main>
+<footer><div class="wrap"><div class="fg">
+<div><div class="logo" style="color:#fff;margin-bottom:12px"><img src="images/logo.png" alt=""><span>Big Cheese Academy</span></div>
+<p style="font-size:14px;max-width:320px">From understanding to outstanding. Online tutoring for Grades 10–12.</p></div>
+<div><h4>Pages</h4><a href="subjects.html">Subjects</a><a href="classes.html">Classes</a><a href="pricing.html">Pricing</a><a href="tutor.html">Your tutor</a><a href="faq.html">FAQ</a><a href="enrol.html">Enrol</a></div>
+<div><h4>Contact</h4><a href="https://wa.me/27767642609">WhatsApp: 076 764 2609</a><a href="mailto:tebugoblessing26@gmail.com">tebugoblessing26@gmail.com</a><a href="classes.html">Mon–Fri · 09:00–19:00</a></div>
+</div><div class="cp">© 2026 Big Cheese Academy. All rights reserved.</div></div></footer>
+<a class="wa" href="https://wa.me/27767642609?text=Hi%20Big%20Cheese%20Academy" aria-label="Chat on WhatsApp">💬 WhatsApp us</a>
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
